@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Blog preview card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      body {
+        display: flex;
+        background-color: #f4d04e;
+        justify-content: center;
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+      }
+      .container{
+        background-color:#fff ;
+        padding: 1rem;
+        position: absolute;
+        top: 15%;
+        border-radius: .5rem;
+        border: 1px solid rgb(124, 124, 124);
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        box-shadow: 8px 7px 2px 1px rgba(0,0,0,0.98);
+-webkit-box-shadow: 8px 7px 2px 1px rgba(0,0,0,0.98);
+-moz-box-shadow: 8px 7px 2px 1px rgba(0,0,0,0.98);
+      }
+      .img1{
+        border-radius: .5rem;
+        margin-bottom: 10px;
+      }
+      .btn{
+        width: fit-content;
+        font-size:small;
+        font-weight: 700;
+        background-color: #f4d04e;
+        border-radius: 2px;
+        border: none;
+        padding: 8px;
+        margin-bottom: 10px;
+      }
+      .time{
+        color: rgb(73, 73, 73);
+        font-size: smaller;
+        font-weight: 300;
+        margin-bottom: 15px;
+        text-align: start;
+      }
+    .title{
+      font-weight: bolder;
+      text-align: start;
+    }
+    p{
+      font-size: small;
+      padding-right: 100px;
+      color: gray;
+      margin-bottom: 25px;
+      text-align: start;
+    }
+    .avatar{
+      width: 30px;
+      margin-right: 10px;
+    }
+    .profile{
+      display: flex;
+    }
+    span{
+      padding-top: 10px;
+      font-weight: bold;
+      font-size: small;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img class="img1" src="assets/images/illustration-article.svg" alt="" />
+      <button class="btn">Learning</button>
+      <div class="time">Published 21 Dec 2023</div>
+      <div class="title">HTML & CSS foundations</div>
+      <p>The languages are the backbone of every website, defining structure, content and <br> presentation.</p>
+    <div class="profile">
+      <img class="avatar" src="assets/images/image-avatar.webp" alt="">
+      <span>Gregor Hopper</span>
+    </div>
+    </div>
+
+<!--     <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">JohnsonPedia</a>.
+    </div> -->
+  </body>
+</html>
